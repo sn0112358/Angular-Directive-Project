@@ -1,0 +1,6 @@
+<div ng-repeat="user in users">
+    <h1>User</h1>
+    <h3>{{ user.name }}</h3>
+    <h4 ng-show="otherInfo">{{ user.email }}</h4>
+    <h4 ng-show="otherInfo">{{ user.age }}</h4>
+</div>
